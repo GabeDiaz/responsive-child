@@ -1,0 +1,723 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,700,700italic);
+
+/* High Contrast Options
+-------------------------------------------------------------- */
+body .highcontrast {background: #000;  color:#fff;}
+body .highcontrast a {color:#fff;}
+body .highcontrast a.active {color:#FF0000;}
+.highcontrast p{  background: #000;  color:#fff;}
+.highcontrast p a{  background: #000;  color:yellow;}
+.highcontrast table, .highcontrast td, .highcontrast tr, .highcontrast th, .highcontrast thead{  background: #000;  color:#fff;}
+.highcontrast div#mw_login{background: #000;  color:#fff;}
+
+
+a img{border:none;}
+
+body {
+	background-color:#fcf9f3;
+	line-height: 23px;
+	font-family:Georgia;}
+
+.post-date{float:left; width:50%;color: #000000;  font-size: 10px;    margin-left: 13px;    margin-top: 12px;  margin-bottom: 10px;  height: 25px;font-family: Georgia, serif;font-size: 16px;}
+.txt_controls {color: #666666;font-size: 10px;font-family: Verdana;margin-right: 13px;text-align: right;margin-top: 12px;margin-bottom:10px;height: 25px;float:right;}
+.headline {font-size: 24px;}
+span#essayEditor {font-size: 16px;}	
+
+p{color: #000;
+margin-top: 16px;
+font-size: 16px;
+line-height: 23px;
+font-family: Georgia, serif;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;}
+
+td{font-size: 16px;}
+
+/* =Horizontal Rule
+-------------------------------------------------------------- */
+hr {
+	margin: 20px 0px;
+	background: #dddddd;
+	border: none;
+	clear: both;
+	color: #dddddd;
+	float: none;
+	height: 1px;
+	width: 100%;
+}
+
+h2{font-size:18px;}
+
+.pub-title {display:none;}
+
+.single-email-footer{line-height:.75em;}
+
+.imagechart {text-align: center;}
+.highlight.green p {color: #108B09;}
+
+.single-post-tablefix #mw_login{background: #f9f9f9;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: 0 30px;
+margin-top: 0;
+border: 1px solid #dddddd;}
+
+
+
+/* Email Headers by Category */
+
+.category-retirement-insider {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pri-header.png');
+	height: 125px;
+}
+
+.PRI .category-monthly-issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pri-header.png');
+	height: 125px;
+}
+
+
+.CWE .category-monthly-issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/cw_header_final1_fw_PUAVHTGE48.png');
+	height: 125px;
+}
+.CWE .category-updates {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/cw_header_final1_fw_PUAVHTGE48.png');
+	height: 125px;
+}
+
+.PBL .category-mark_fords_creating_wealth {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/cw_header_final1_fw_PUAVHTGE48.png');
+	height: 125px;
+}
+
+.CWE .category-mark_fords_creating_wealth {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/cw_header_final1_fw_PUAVHTGE48.png');
+	height: 125px;
+}
+
+.LEG .category-reports {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/leg-header.png');
+	height: 125px;
+}
+
+.MTI .category-reports {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/mti-sr-header.png');
+	height: 125px;
+}
+
+.MTI .category-monthly-minutes {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/mti-mm-header.png');
+	height: 125px;
+}
+
+.MTI .category-monthly-issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/mti-mi-header.png');
+	height: 125px;
+}
+
+.MTI .category-updates {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/mti-update-header.png');
+	height: 125px;
+}
+
+.CLB .category-installment {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/clb-header.png');
+	height: 125px;
+	}
+
+.WSC .category-installment{
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/clb-wsc-header.png');
+	height: 125px;
+	}	
+	
+.DEBT .category-installment{
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/clb-dcs-header.png');
+	height: 125px;
+	}	
+	
+.EIO .category-installment {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/clb-eio-header.png');
+	height: 125px;
+}
+
+.MDB .category-installment {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/clb-mdb-header.png');
+	height: 125px;
+	}
+	
+.RRE .category-installment {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/clb-rre-header.png');
+	height: 125px;
+	}
+
+.RNY .category-installment {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/clb-rny-header.png');
+	height: 125px;
+	}	
+
+.LVR .category-installment {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/clb-lvr-header.png');
+	height: 125px;
+	}	
+
+.MTW .category-updates {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/mti-ws-header.png');
+	height: 125px;
+	}
+
+.JPT .category-options {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/jpt-header.png');
+	height: 125px;
+	}
+		
+.JPT .category-updates {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/jpt-header.png');
+	height: 125px;
+	}
+	
+.JPT .category-reports {
+background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/jpt-header.png');
+height: 125px;
+}
+
+.JPT .category-alerts {
+background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/jpt-header.png');
+height: 125px;
+}
+
+.JPT .category-media {
+background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/jpt-header.png');
+height: 125px;
+}
+
+.PBN .category-weekly_issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbn-header.png');
+	height: 125px;
+}
+
+.PBN .category-weekly-issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbn-header.png');
+	height: 125px;
+}	
+
+.TOM .category-monthly-issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/tom-header.png');
+	height: 125px;
+}
+
+.PBL .category-monthly-issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbl-header.png');
+	height: 125px;
+}
+
+.MTI .PBL .category-monthly-issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbrg-header.png');
+	height: 125px;
+}
+	
+.PBL .category-updates {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbl-header.png');
+	height: 125px;
+}	
+
+.Tom .category-updates {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/tom-header.png');
+	height: 125px;
+}
+
+.LEG .category-monthly-issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/leg-header.png');
+	height: 125px;
+}		
+
+
+.PBL .category-special-reports {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbl-header.png');
+	height: 125px;
+}	
+
+.PBL .category-reports {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbl-header.png');
+	height: 125px;
+}	
+	
+
+/*Classic Email Header*/	
+.PIP .category-issues {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/pip-leg-header_EIUXKFWONC.png');
+	background-repeat:no-repeat;
+	height: 245px;
+	background-color: #DCEDE4;
+}	
+
+/*Classic Email Header*/	
+.PBN .category-webinar-courses {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/pbn-leg-web-header.png');
+	background-repeat:no-repeat;
+	height: 245px;
+	background-color: #DCEDE4;
+}	
+
+.IFL.PBL .category-income-for-life {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/ifl-header.png');
+	height: 125px;
+}	
+.IFL .category-income-for-life-premium {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/iflp-header.png');
+	height: 125px;
+}	
+.IFL .category-reports {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/iflp-header.png');
+	height: 125px;
+}	
+
+.category-palm-beach-research-group {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbrg-header.png');
+	height: 125px;
+}	
+
+
+/*PBRG Header*/	
+.MTI.PBL .page.type-page {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbrg-header.png');
+	height: 125px;
+}
+
+/*PBRG Header*/	
+.PBL .page.type-page {
+  background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbrg-header.png');
+  height: 125px;
+}
+
+/*PBRG Page Template LEG pub*/	
+.LEG .page.type-page {
+  background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/leg-header.png');
+  height: 125px;
+}
+
+
+/*PBRG Header*/	
+.PBL-A1 .page.type-page {
+	background-image: url('http://media.palmbeachgroup.com/images/email/headers/a1-header.png');
+	height: 125px;
+}
+
+/*PBRG Header*/	
+.JPT .page.type-page {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/jpt-header.png');
+	height: 125px;
+}
+
+.PBN1 .page.type-page {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbn-header.png');
+	height: 125px;
+}
+
+.PBN .page.type-page {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbn-header.png');
+	height: 125px;
+}
+
+.PBJ .page.type-page {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbn-header.png');
+	height: 125px;
+}
+
+.podcast.type-podcast {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pbrg-header.png');
+	height: 125px;
+}
+
+.IFL .podcast.type-podcast {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/ifl-header.png');
+	height: 125px;
+}
+
+
+
+
+/* ------------------
+ additional styling for IFL tables
+   ------------------   */
+
+#hor-zebra
+{
+background-color: #fff;
+font-family: Georgia, serif;
+font-size: 14px;
+margin: 15px;
+width: 95%;
+text-align: left;
+border-collapse: collapse;
+color: #000;
+border: 1px solid #E4E4E4;
+margin: auto;
+}
+
+#hor-zebra th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 8px;
+	color: #000;
+}
+#hor-zebra td {
+padding: 8px;
+color: #000;
+border: 1px solid #E4E4E4;
+}
+#hor-zebra .odd
+{
+	background: #EBF1FF; 
+}
+
+.table-zebra
+{
+background-color: #fff;
+font-family: Georgia, serif;
+font-size: 14px;
+margin: 15px;
+width: 95%;
+text-align: left;
+border-collapse: collapse;
+color: #000;
+border: 1px solid #E4E4E4;
+margin: auto;
+}
+
+.table-zebra th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 8px;
+	color: #000;
+}
+.table-zebra td {
+padding: 8px;
+color: #000;
+border: 1px solid #E4E4E4;
+}
+.table-zebra .odd
+{
+	background: #EBF1FF; 
+}
+
+
+
+
+
+
+
+.datatable tr,.datatable td,.datatable th,.datatable thead{vertical-align:text-top}
+.datatable thead{color:#fff;}
+  .datatable,.datatable thead{border-collapse:collapse;border-spacing:0px}
+  .datatable{
+	border: 0px solid #ddd;
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+  .datatable td,.datatable th{padding:8px;font:14px Georgia, serif;vertical-align: middle;border: 1px solid #dddddd;}
+  .datatable.wide td,.datatable.wide th{padding:6px 1px;font:14px Georgia, serif;vertical-align: middle;}
+   .datatable tr:nth-child(even){background:#fafafa}
+  .datatable thead tr{background:/*#c66259*/#696969;!important}
+
+
+
+
+
+@media only screen and (max-width : 480px) {
+table, tbody, tr, th{width:100%;}
+.header-image{width:100%;}
+.txt_controls {display:none;}
+.PBL .category-monthly-issues {display:none;}
+.MTI .category-monthly-issues {display:none;}
+.Tom .category-updates {display:none;}
+.JPT .category-updates {display:none;}
+.JPT .category-media {display:none;}
+.PBL .category-updates {display:none;}
+.MTI .category-updates {display:none;}
+.PBL-A1 .page.type-page {display:none;}
+
+
+
+img{width:100%;}
+.bullet-image{width:12px;}
+.pub-title {
+background-color: #2B775B;
+color: #fff;
+padding: 6px 0;
+text-align: center;
+font-family: verdana;
+font-size: 20px;
+}
+
+
+.category-retirement-insider {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/pri-header.png');
+	width: 320px;
+}
+.category-monthly-minutes {
+	background-image: url('http://files.csinvesting.com/images/emailGraphics/headers/mti-mm-header.png');
+	width: 320px;
+}
+
+}
+
+
+
+
+
+/* Monthly Minutes Transcript Download Button */
+.transcript {
+float: right;
+background: url('http://files.csinvesting.com/images/MTI/site/mti-transcript.jpg');
+text-indent: -9999em;
+width: 190px;
+height: 32px;
+background-repeat: no-repeat;
+background-position: top left;
+vertical-align: top;
+}
+
+.PBL.MTI img {
+border: 0px solid #eee;
+}
+
+
+.aligncenter {
+display: block;
+margin: 5px auto;
+}
+
+.MTI #wpcf-field-subhead {
+font-size: 16px;
+padding-bottom:6px;
+}
+
+.MTI h2 {
+font-size: 18px;
+font-family: Georgia, serif;
+}
+
+.MTI blockquote {
+background: #FFFFFF;
+border: none;
+border: 1px solid #E4E4E4;
+margin: 20px 10px;
+overflow: auto;
+padding: 0 12px;
+}
+
+.MTI blockquote p {
+font-style: italic;
+font-size: 16px;
+line-height: 26px;
+font-weight: 400;
+font-family: Georgia, serif;
+}
+
+.MTI .wpcf-field-top-note-value {
+background-color: #eee;
+padding: 10px;
+border: 1px solid #a5a5a5;
+margin: 14px 0;
+}
+
+.income-extermination-update {
+padding: 20px;
+border: 1px solid #ccc;
+margin: 14px 0;
+background-color: #FAFAFA;
+}
+
+.photocaption {
+border-right: 1px solid #ccc;
+padding-right: 14px;
+font-size: 10px;
+width: 335px;
+float: left;
+margin: 8px 14px 14px 0;
+padding-top: 5px;
+}
+
+.photocaption img {
+width: 315px;
+}
+
+.photocaption p {
+font-size: 12px;
+}
+
+/* Mega Trends Table Styles */
+
+.mtiminutestable{background-color:#fff;font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;margin: 15px;width: 85%;text-align: left;border-collapse: collapse;color: #333;
+border: 1px solid #E4E4E4;margin:auto;}
+.mtiminutestable th{font-size: 14px;font-weight: normal;padding: 10px 8px;color: #333;}
+.mtiminutestable td{padding: 8px;color: #0A548C;border: 1px solid #dddddd;}
+.mtiminutestable .odd{	background: #EBF1FF; }
+
+
+.mtidatatable tr,.mtidatatable td,.mtidatatable th,.mtidatatable thead{vertical-align:text-top;   border: 1px solid #E4E4E4;}
+.mtidatatable thead{color:#fff;}
+  .mtidatatable,.mtidatatable thead{border-collapse:collapse;border-spacing:0px}
+/*.mtidatatable{background-color: #FFF;font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;margin: 15px;width: 85%;text-align: left;border-collapse: collapse;
+color: #333;border: 1px solid #E4E4E4;
+margin: auto;padding: 8px;color: #0A548C;margin-bottom: 20px;
+}*/
+
+.mtidatatable{background-color: #FFF;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 11px;
+  margin: 15px;
+  width: 90%;
+  text-align: left;
+  border-collapse: collapse;
+  color: #333;
+  border: 1px solid #E4E4E4;
+  margin: auto;
+  padding: 8px;
+  color: #000000;
+  margin-bottom: 20px;
+   page-break-inside:auto;}
+
+.mtidatatable.wide{background-color: #FFF;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 11px;
+  margin: 15px;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  color: #333;
+  border: 1px solid #E4E4E4;
+  margin: auto;
+  padding: 8px;
+  color: #000000;
+  margin-bottom: 20px;
+   page-break-inside:auto;}
+
+ .mtidatatable strong {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 13px;
+  font-weight:bold;
+}
+
+.mtidatatable p strong {  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 11px;
+  font-weight:bold;}
+
+
+  .mtidatatable th{padding: 8px;vertical-align: middle;font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;font-size: 14px;font-weight: 400;vertical-align: middle;}
+  .mtidatatable td{padding: 6px;vertical-align: middle;font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;font-size: 11px;font-weight: 400;vertical-align: middle;}
+  .mtidatatable.wide td,.mtidatatable.wide th{padding:4px;font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;font-size: 12px;font-weight: 400;vertical-align: middle;}
+/*  .mtidatatable tr:nth-child(even){background:#EBF1FF;} */
+  .mtidatatable tr:nth-child(even) {background: #F4F4F4;}
+  .mtidatatable thead tr{background: #ffffff!important;text-align: left;color:#333333;page-break-inside:avoid; page-break-after:auto;}
+  
+.mtidatatable td.last {
+  background-color: #fff;
+}
+
+
+
+table.legtool {margin-top: 10px;border-spacing: 1px;}
+thead tr {background-color:#eee;}
+
+.legtool p strong {font: 12px Arial; font-weight:bold;}
+
+.legtool thead tr td {padding: 10px 2px;font: 12px Arial;vertical-align: middle;background-color:#eee;}
+.legtool td {padding: 4px 2px;font: 12px Arial;vertical-align: middle;
+/*border-bottom: 1px solid #fafafa;border-right: 1px solid #fafafa;*/}
+.legtool tr:nth-child(odd) {background: #fff;}
+.legtool tr:nth-child(even) {background: #fafafa;}
+table.legtool.vertical {margin-top: 10px;border-spacing: 1px;margin-left: auto;margin-right: auto;}
+.legtool.vertical td {padding-left: 10px;}
+/*.legtool.vertical tr td:nth-child(even){ background: #fafafa;}*/
+
+@media print {
+body {
+	background-color:#ffffff;}
+}
+
+
+
+a.selected  {
+               color: #000 !important;  border: 1px solid #000;  }
+#medium    {  font-size: 12px !important;  padding: 0 4px;  margin: 0 2px;  color: #8E8E8E;    font-family: Verdana;}
+#large     {  font-size: 16px  !important;  padding: 0 4px;   margin: 0 8px 0 2px;  color: #8E8E8E;   font-family: verdana;}
+
+table{page-break-inside:auto;}
+tr{page-break-inside:avoid; page-break-after:auto;}
+
+
+
+
+
+
+.portfolio-table a {
+	text-decoration: underline;
+}
+.portfolio-table {
+	border-collapse: collapse;
+	border: 0px solid #e4e4e4;
+	width: 100%;
+	font-size: 12px;
+	color: #727272;
+}
+.portfolio-table th {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #000;
+}
+
+.portfolio-table > tbody > tr:hover {
+  background-color: #fafafa;
+}
+
+td.col-1 a {
+  font-weight: bold;
+}
+.portfolio-table td {
+	font-size: 10px;
+	line-height: 30px;
+}
+.portfolio-table th, .portfolio-table td {
+    padding-left: 10px;
+    padding-top: 0;
+    vertical-align: bottom;
+    text-align: left;
+    font-size: 11px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    white-space: nowrap;
+}
+
+.portfolio-table tbody tr {
+border-bottom: 1px solid #D6D6D6;
+}
+
+.portfolio-table thead tr {
+    background-color: #CACACA;
+}
+
+
+.portfolio-table td.col-1 {
+width:200px;
+}
+
+
+.single-post-tablefix.PBL-A1 .page.type-page {
+    background-image: url('http://media.palmbeachgroup.com/images/email/headers/a1-header.png');
+    height: 125px;
+    display: none;
+}
